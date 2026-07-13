@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Muscle Muse — M³RC · Hyderabad Run Club</title>
-<meta name="description" content="My Muscle Muse Run Club (M³RC) — a run club for every pace in Hyderabad. We run Wednesdays & Fridays at the Narsingi track. No gatekeeping, just kilometres.">
+<meta name="description" content="My Muscle Muse Run Club (M³RC) — a run club for every pace in Hyderabad. We run Mondays, Wednesdays & Fridays at the Narsingi track. No gatekeeping, just kilometres.">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Orbitron:wght@700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -83,10 +83,10 @@ h1.hero-title .box{background:var(--lime);color:var(--ink);padding:0 .1em;displa
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* runs */
-.runs-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem}
+.runs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}
 .run-card{background:var(--panel);border:1px solid var(--line);padding:1.7rem;position:relative;overflow:hidden}
 .run-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px}
-.run-card.c1::before{background:var(--blue)}.run-card.c2::before{background:var(--pink)}
+.run-card.c1::before{background:var(--blue)}.run-card.c2::before{background:var(--pink)}.run-card.c3::before{background:var(--lime)}
 .run-card .day{font-family:"Archivo Black";text-transform:uppercase;font-size:1.9rem;margin-bottom:1rem}
 .run-card .meta{display:flex;flex-direction:column;gap:.7rem;color:var(--muted);font-weight:700;font-size:.95rem}
 .run-card .meta div{display:flex;align-items:center;gap:.6rem}
@@ -198,14 +198,14 @@ footer{background:var(--ink);border-top:4px solid var(--lime);padding:clamp(3.5r
       </a>
     </div>
     <div class="strip">
-      <div class="b2 c-tang"><div class="k">WED + FRI</div><div class="v">// twice a week</div></div>
+      <div class="b2 c-tang"><div class="k">3×/week</div><div class="v">// mon · wed · fri</div></div>
       <div class="b2 c-pink"><div class="k">7:00 PM</div><div class="v">// sharp · at the track</div></div>
       <div class="b2 c-blue"><div class="k">ALL PACES</div><div class="v">// every level welcome</div></div>
     </div>
   </div>
   <div class="mq"><div class="t">
-    <div class="seg">WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦&nbsp;</div>
-    <div class="seg">WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ WED + FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦&nbsp;</div>
+    <div class="seg">MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦&nbsp;</div>
+    <div class="seg">MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦ MON · WED · FRI ✦ 7:00 PM ✦ NARSINGI TRACK ✦ ALL PACES WELCOME ✦ M³RC ✦&nbsp;</div>
   </div></div>
 </section>
 
@@ -214,10 +214,18 @@ footer{background:var(--ink);border-top:4px solid var(--lime);padding:clamp(3.5r
   <div class="wrap">
     <div class="sec-head">
       <div class="eyebrow">// the runs</div>
-      <h2 class="big">Twice a week,<br><span class="box">rain or shine.</span></h2>
+      <h2 class="big">Three times a week,<br><span class="box">rain or shine.</span></h2>
       <p>Show up, lace up, and run with the crew along the Narsingi Cycle &amp; Walking Track. No pace requirement — just good people and good kilometres.</p>
     </div>
     <div class="runs-grid">
+      <div class="run-card c3">
+        <div class="day">Monday</div>
+        <div class="meta">
+          <div><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg> Every Monday</div>
+          <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 7:00 PM</div>
+          <div><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.3-7-11a7 7 0 1114 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Narsingi Cycle &amp; Walking Track</div>
+        </div>
+      </div>
       <div class="run-card c1">
         <div class="day">Wednesday</div>
         <div class="meta">
@@ -251,7 +259,7 @@ footer{background:var(--ink);border-top:4px solid var(--lime);padding:clamp(3.5r
     </div>
     <div class="steps">
       <div class="step s1"><div class="num">01</div><h3>Join the group</h3><p>Tap into the M³RC WhatsApp crew for run reminders, weather calls and the meeting pin.</p></div>
-      <div class="step s2"><div class="num">02</div><h3>Show up &amp; run</h3><p>Wed &amp; Fri, 7 PM, at the Narsingi track. Walk, jog or sprint — every pace belongs.</p></div>
+      <div class="step s2"><div class="num">02</div><h3>Show up &amp; run</h3><p>Mon, Wed &amp; Fri, 7 PM, at the Narsingi track. Walk, jog or sprint — every pace belongs.</p></div>
       <div class="step s3"><div class="num">03</div><h3>Belong</h3><p>Stay for the community. Crush goals, make friends, come back stronger each week.</p></div>
     </div>
   </div>
@@ -332,7 +340,7 @@ footer{background:var(--ink);border-top:4px solid var(--lime);padding:clamp(3.5r
       </div>
       <div class="fc-r">
         <a class="btn main" href="https://chat.whatsapp.com/CIzysuQ6BO1FgQRHXTiYmZ" target="_blank" rel="noopener">Join the crew →</a>
-        <div class="fc-next">// next run · Wed 7:00 PM · Narsingi track</div>
+        <div class="fc-next">// Mon · Wed · Fri · 7:00 PM · Narsingi track</div>
       </div>
     </div>
     <div class="foot">
